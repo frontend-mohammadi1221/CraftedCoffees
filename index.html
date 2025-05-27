@@ -4,33 +4,6 @@
     <title>Crafted Coffees</title>
     <link rel="icon" href="svg/coffee.svg" type="image/icon type">
     <link rel="stylesheet" href="styleee.css" />
-    <script>
-      window.onscroll = function() { Scroll()};
-      function Scroll() {
-        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
-          document.getElementById("id-navi").className = "navi-slidedown";
-        }
-        if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
-          document.getElementById("id-about-scroll").className = "scroll-about";
-        }
-      }
-
-      function menuButtonSnacks(){
-        document.getElementById("id-drinks").className = "menu-button-off";
-        document.getElementById("id-snacks").className = "menu-button-on";
-        document.getElementById("id-menu-snacks").className = "menu-snacks-on";
-        document.getElementById("id-menu-drinks").className = "menu-drinks-off";
-      }
-      function menuButtonDrinks(){
-        document.getElementById("id-drinks").className = "menu-button-on";
-        document.getElementById("id-snacks").className = "menu-button-off";
-        document.getElementById("id-menu-snacks").className = "menu-snacks-off";
-        document.getElementById("id-menu-drinks").className = "menu-drinks-on";
-      }
-
-
-
-    </script>
   </head>
 
   <body>
@@ -729,5 +702,6 @@
     </div><br>
     <p class="fontsettings">Copyright © 2020 | <a class="colorcover-link" href="#">Crafted Coffee's</a></p><br><br>
   </div></center>
+  <script src="./app.js"></script>
   </body>
 </html>
