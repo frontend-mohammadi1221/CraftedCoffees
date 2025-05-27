@@ -1,3 +1,3 @@
-let userName = "nimamohammadi"
+let userName = "panizAhmadi"
 
-userName==="nimamohammadi" ? console.log("true") : console.log("falss")
+userName==="nimamohammadi" ? console.log("true") : console.log("false")
