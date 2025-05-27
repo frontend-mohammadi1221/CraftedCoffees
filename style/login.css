@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../Cafe3.jpeg") center/cover no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+div:first-child {
+  width: 20rem;
+  height: 20rem;
+  background-color: #ffffff3b;
+  backdrop-filter: blur(12px);
+  border-radius: 2rem;
+  padding: 2rem;
+}
+div:first-child > h3 {
+  font-size: 2rem;
+  color: #000000;
+}
+
+div:first-child > form {
+  width: 100%;
+}
+div:first-child > form > input {
+  border: none;
+  outline: none;
+  height: 3rem;
+  border-radius: 0.7rem;
+  width: 100%;
+  background-color: rgb(126, 126, 126);
+  margin: 1rem 0;
+  color: #000000;
+  font-size: 20px;
+}
+div:first-child > form > button {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  margin: 1rem 0;
+  background-color: seagreen;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
